@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            /* background-color: #71d841; */
+            background-image: url(snakeimage.jpg);
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh
+        }
+        canvas{
+            border: 2px solid;
+            background-color: #131515;
+            box-shadow: 5px 10px 5px rgb(73, 73, 73);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="game_board" width = '400' height="400"></canvas>
+     <script src="game.js"></script>
+</body>
+</html>
